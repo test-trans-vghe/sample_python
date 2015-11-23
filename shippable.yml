@@ -29,4 +29,4 @@ notifications:
 matrix:
   include:
     - python: "3.4"
-    -  env: foo=bar
+    - env: foo=bar
