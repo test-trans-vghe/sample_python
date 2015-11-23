@@ -4,8 +4,8 @@ python:
   #- 2.6
   #- 2.7
  # - 3.2
-  #- 3.3
-  - 3.4
+  - 3.3
+ # - 3.4
   #- pypy
 install:
   - pip install -r requirements.txt
@@ -33,3 +33,7 @@ notifications:
       on_success: change
       on_failure: always
     
+matrix:
+  include:
+    - python: "3.4"
+      env: foo=bar
