@@ -18,7 +18,7 @@ archive: true
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-  - echo $key1
+  - echo $key1 and $foo
  
 script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
