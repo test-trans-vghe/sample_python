@@ -10,8 +10,8 @@ python:
 install:
   - pip install -r requirements.txt
 
-env: 
-  - secure: BT9K5u/T/Cab/a8sWryvbuqkkLQ282YiXIycpE0hQBGubDqNdScAEl3zNQrJnNNIfqcoXS74d+hAEo0bexdeKvqeuwILnkM7C+tjRFKrkKOf5Cn0jRzrgRE7cYoj6PHxKBiXx5FW8ZnbeFWJJT6U0LyvcULxc/Gq+0i9jHSzaP4nnuIxAxwoUnJdxaKbFt6D9UGCy/d/eZRVViQfjmxlBVeh5JO4yzKpQtKfotkP80FGxAhnkXRBIJZY3egQ57fa7lQ2vOjAQW8dtPrSWXhSUXXjNhWWy2vXz2++dalAYP2lzirVIIq7ZcQlK+0EqcOh3EA7bCLeVH8wTpHstvc9ng==
+#env: 
+ # - secure: BT9K5u/T/Cab/a8sWryvbuqkkLQ282YiXIycpE0hQBGubDqNdScAEl3zNQrJnNNIfqcoXS74d+hAEo0bexdeKvqeuwILnkM7C+tjRFKrkKOf5Cn0jRzrgRE7cYoj6PHxKBiXx5FW8ZnbeFWJJT6U0LyvcULxc/Gq+0i9jHSzaP4nnuIxAxwoUnJdxaKbFt6D9UGCy/d/eZRVViQfjmxlBVeh5JO4yzKpQtKfotkP80FGxAhnkXRBIJZY3egQ57fa7lQ2vOjAQW8dtPrSWXhSUXXjNhWWy2vXz2++dalAYP2lzirVIIq7ZcQlK+0EqcOh3EA7bCLeVH8wTpHstvc9ng==
 
 archive: true
 # Make folders for the reports
